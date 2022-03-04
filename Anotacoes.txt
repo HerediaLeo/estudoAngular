@@ -1,0 +1,6 @@
+Criando um projeto Angular:
+
+	- Instalando o angular: npm install -g @angular/cli OU npm install -g @angular/cli@10.1.6
+	- Criando o projeto: ng nomeProjeto
+	- Rodar o Servidor e abrir projeto: ng serve
+
