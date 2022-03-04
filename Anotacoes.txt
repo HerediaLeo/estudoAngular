@@ -1,4 +1,10 @@
-Criando um projeto Angular:
+DOCUMENTAÇÃO:
+	https://angular.io/start
+
+Criando um projeto Angular com CLI:
+
+O ANGULAR CLI É UMA FERRAMENTA DE INTERFACE DE LINHA DE COMANDO QUE VOCÊ USA PARA INICIALIZAR,
+DESENVOLVER, ESTRUTURAR E MANTER APLICATIVOS ANGULAR DIRETAMENTE DE UM SHELL DE COMANDO.
 
 	- Instalando o angular: npm install -g @angular/cli OU npm install -g @angular/cli@10.1.6
 	- Criando o projeto: ng nomeProjeto

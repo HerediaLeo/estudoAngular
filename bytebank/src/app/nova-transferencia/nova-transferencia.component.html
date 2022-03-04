@@ -1,16 +1,22 @@
-<form>
+<section class="container">
+
+  <form class="formulario">
     <h2>Nova Transferência</h2>
-  
-    <div>
-      <label>Valor: R$ </label>
-      <input id="destino" type="text">
+
+    <div class="form-field">
+      <label class="form-field__label" for="destino">Valor: R$ </label>
+      <input class="form-field__input" for="form-field__input" id="valor" type="text">
     </div>
-  
-    <div>
-      <label>Destino: </label>
-      <input id="destino" type="text">
+
+    <div class="form-field">
+      <label class="form-field__label" for="destino">Destino: </label>
+      <input class="form-field__input" id="destino" type="text">
     </div>
-   
-    <button>Enviar</button>
-  
+
+    <div class="botao-wrapper">
+      <button id="buttonEnviar" class="botao">Enviar</button>
+    </div>
+
   </form>
+
+</section>
