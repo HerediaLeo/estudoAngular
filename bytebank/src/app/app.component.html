@@ -1,1 +1,16 @@
-<app-nova-transferencia></app-nova-transferencia>
+<app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
+
+<!-- Para que eu possa receber os dados vindos do componente nova-transferencia, preciso fazer a chamada da função
+  do componente "nova-transferencia" no javascript do app.component, desta forma, é possível passar os valores
+  do evento emitido na função.
+
+  Para receber os dados, chamo o método do evento "aoTransferir" dentro do componente responsável que vai receber a
+  função "transferir" do app.componente.ts que vai receber os dados do evento.
+
+  Após as chamadas da função, chamo os valores a partir do objeto declarado dentro do método transferir
+  que é passado através do $event.
+
+-->
+
+<p>Valor: R$ {{ transferencia?.valor }}</p>
+<p>Destino: {{ transferencia?.destino }}</p>
