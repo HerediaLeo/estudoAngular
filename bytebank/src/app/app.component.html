@@ -1,4 +1,6 @@
-<app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
+<app-nova-transferencia></app-nova-transferencia>
+
+<app-extrato></app-extrato>
 
 <!-- Para que eu possa receber os dados vindos do componente nova-transferencia, preciso fazer a chamada da função
   do componente "nova-transferencia" no javascript do app.component, desta forma, é possível passar os valores
@@ -10,7 +12,7 @@
   Após as chamadas da função, chamo os valores a partir do objeto declarado dentro do método transferir
   que é passado através do $event.
 
+  <p>Valor: R$ {{ transferencia?.valor }}</p>
+  <p>Destino: {{ transferencia?.destino }}</p>
 -->
 
-<p>Valor: R$ {{ transferencia?.valor }}</p>
-<p>Destino: {{ transferencia?.destino }}</p>

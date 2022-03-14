@@ -10,3 +10,9 @@ DESENVOLVER, ESTRUTURAR E MANTER APLICATIVOS ANGULAR DIRETAMENTE DE UM SHELL DE 
 	- Criando o projeto: ng nomeProjeto
 	- Rodar o Servidor e abrir projeto: ng serve
 
+
+Criando um componente a partir do CLI
+	ng generate component NOMECOMPONENTE --> Irá criar os 3 arquivos componente.html, componente.scss, component.ts;
+
+
+-- Durante a criação do front end é utilizado a "metodologia BEM" para estilização dos componentes.
